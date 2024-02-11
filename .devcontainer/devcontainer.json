@@ -1,0 +1,21 @@
+{
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Shopify.ruby-lsp",
+        "castwide.solargraph",
+        "kaiwood.endwise"
+      ]
+    }
+  },
+  "name": "My RoR project",
+  "postCreateCommand": "bundle",
+  "runArgs": [
+    "--name",
+    "my-ror-project"
+  ],
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}"
+}

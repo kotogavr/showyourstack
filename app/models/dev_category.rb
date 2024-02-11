@@ -1,0 +1,2 @@
+class DevCategory < ApplicationRecord
+end
