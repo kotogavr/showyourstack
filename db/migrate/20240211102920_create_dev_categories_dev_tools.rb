@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class CreateDevCategoriesDevTools < ActiveRecord::Migration[7.1]
   def change
     create_table :dev_categories_dev_tools do |t|

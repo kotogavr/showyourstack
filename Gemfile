@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 
 ruby '3.3.0'
@@ -46,6 +48,7 @@ gem 'bootsnap', require: false
 
 gem 'authentication-zero'
 gem 'omniauth-google-oauth2'
+gem 'phlex-rails'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
